@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikacja_Kozienalia</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ulub">Tu będą ulubione</string>
+    <string name="kalendarz">Tu będzie kalendarz</string>
+    <string name="strona_gl">Strona Główna</string>
+    <string name="wydarzenia">Wydarzenia</string>
+    <string name="ulubione">Ulubione</string>
+</resources>

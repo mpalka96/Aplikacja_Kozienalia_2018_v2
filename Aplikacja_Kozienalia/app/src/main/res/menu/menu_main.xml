@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottombaritem1"
+        android:icon="@drawable/str_glowna"
+        android:title="@string/strona_gl" />
+
+    <item
+        android:id="@+id/bottombaritem2"
+        android:icon="@drawable/kalendarz"
+        android:title="@string/wydarzenia" />
+
+    <item
+        android:id="@+id/bottombaritem3"
+        android:icon="@drawable/ulubione"
+        android:title="@string/ulubione" />
+
+</menu>

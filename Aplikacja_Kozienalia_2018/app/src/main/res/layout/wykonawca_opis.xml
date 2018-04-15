@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4fa82f"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/img_opis"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="70"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/poster" />
+
+    <TextView
+        android:id="@+id/nazwa_wyk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_opis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_weight="7"
+        android:text="nazwa_wyk"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/data_wyk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="data_wyk"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/link_yt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/opis_wyk"
+        android:text="link_yt"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/opis_wyk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/data_wyk"
+        android:layout_marginTop="24dp"
+        android:text="opis_wyk"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
